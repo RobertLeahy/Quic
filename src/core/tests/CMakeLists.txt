@@ -1,4 +1,4 @@
 quic_add_test(core
               SOURCES main.cpp
-                      packet.cpp
+                      stream_id.cpp
               LIBRARIES Catch2::Catch2)

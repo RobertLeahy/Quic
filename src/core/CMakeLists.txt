@@ -1,5 +1,2 @@
-quic_add_library(core
-                 SOURCES packet.cpp
-                 LIBRARIES Boost::boost
-                           Boost::system)
+quic_add_library(core)
 add_subdirectory(tests)
